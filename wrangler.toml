@@ -1,0 +1,9 @@
+name = "blog"
+type = 'webpack'
+account_id = 'e208966ac95fab808b75f389374cb2a5'
+route = 'blog.moeyulin.cn/*'
+zone_id = 'e384de44c3318d2f69966c7983e787ce'
+usage_model = ''
+workers_dev = true
+target_type = "webpack"
+site = {bucket = "./public",entry-point = "workers-site"}
