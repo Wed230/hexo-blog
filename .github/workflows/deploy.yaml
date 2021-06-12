@@ -2,7 +2,7 @@ name: Deploy
 on:
   push:
     branches:
-      - main  # 这里填写你的主分支, 比如 Sukka 的是 master, 而我的是 main
+      - master  # 这里填写你的主分支, 比如 Sukka 的是 master, 而我的是 main
 jobs:
   build:
     runs-on: ubuntu-latest
