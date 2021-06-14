@@ -289,7 +289,7 @@ author:
     # You can also use a link of image.
     url: /images/author.jpg
     # If true, the avatar would be displayed in a circle.
-    rounded: false
+    rounded: true
     # Opacity of avatar (value: 0 ~ 1)
     opacity: 1
     # Mouse hover animation
@@ -688,12 +688,12 @@ canvas_ribbon:
 # Canvas-nest
 # Dependency: https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: true
+  enable: false
   # Color of lines.
   # RGB values, use `,` to separate.
-  color: "202,120,83"
+  color: "0,0,0"
   # The opacity of lines (value: 0 ~ 1)
-  opacity: 0.9
+  opacity: 0.6
   # The number of lines.
   count: 99
   # `z-index` property of the background.
