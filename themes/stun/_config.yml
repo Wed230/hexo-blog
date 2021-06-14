@@ -228,9 +228,9 @@ footer:
     version: true
   # Beian information for Chinese users, see: http://www.miitbeian.gov.cn/
   beian:
-    enable: false
+    enable: true
     # 备案 XXXXXXXX 号
-    icp:
+    icp: '滇ICP备20005206号-1'
   # Any custom text (e.g. Hosted by <a href="https://pages.github.com/" rel="noopener" target="_blank">Github Pages</a>)
   custom:
     enable: false
@@ -287,9 +287,9 @@ author:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /images/author.jpg
+    url: /images/avatar.jpg
     # If true, the avatar would be displayed in a circle.
-    rounded: false
+    rounded: true
     # Opacity of avatar (value: 0 ~ 1)
     opacity: 1
     # Mouse hover animation
@@ -305,7 +305,7 @@ author:
 # If you can`t find a suitable icon, you can choose to display text by adding the `origin:` prefix.
 # e.g. `origin:sf`, so `sf` will be displayed.
 social:
-  github: https://github.com/ || fab fa-github
+  github: https://github.com/Wed230 || fab fa-github
   # google: https://plus.google.com/ || fab fa-google
   # twitter: https://twitter.com/ || fab fa-twitter
   # youtube: https://youtube.com/ || fab fa-youtube
