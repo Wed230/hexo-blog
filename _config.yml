@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: stun
+theme: stun @ 5af4a18
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
